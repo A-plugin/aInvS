@@ -1,0 +1,15 @@
+name: aInvS
+version: '1.0.0'
+main: org.aplugin.invSave.InvSave
+api-version: '1.21'
+author: aPlugin
+website: https://discord.com/invite/2SSUvcx4vH
+commands:
+  invS:
+    description: 인벤 세이브권 지급 명령어
+permissions:
+  invs.*:
+    children:
+      - invs.cmds
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.0
